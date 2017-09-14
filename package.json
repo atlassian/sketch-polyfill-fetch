@@ -1,10 +1,10 @@
 {
-  "name": "sketch-polyfill-fetch",
+  "name": "sketch-polyfill-fetch-babel-safe",
   "version": "0.1.4",
-  "description": "A fetch polyfill for sketch",
+  "description": "A fork of sketch-polyfill-fetch that can be safely transpiled to ES5",
   "main": "lib/index.js",
   "dependencies": {
-    "cocoascript-class": "^0.1.2"
+    "cocoascript-class-babel-safe": "^0.1.1"
   },
   "devDependencies": {
     "standard": "^8.6.0"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skpm/sketch-polyfill-fetch.git"
+    "url": "git+https://github.com/atlassian/sketch-polyfill-fetch.git"
   },
   "keywords": [
     "sketch",
@@ -22,6 +22,7 @@
     "polyfill"
   ],
   "author": "Mathieu Dutour <mathieu@dutour.me> (http://mathieu.dutour.me/)",
+  "contributors": ["Tim Pettersen <tim@atlassian.com>"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/skpm/sketch-polyfill-fetch/issues"
