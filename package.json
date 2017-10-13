@@ -1,6 +1,6 @@
 {
   "name": "sketch-polyfill-fetch-babel-safe",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A fork of sketch-polyfill-fetch that can be safely transpiled to ES5",
   "main": "lib/index.js",
   "dependencies": {
